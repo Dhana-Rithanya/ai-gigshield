@@ -29,3 +29,25 @@ Current insurance solutions:
 - Are vulnerable to fraud  
 
 ---
+## 💡 Solution Overview
+AI GigShield provides a **fully automated, AI-driven insurance system** with:
+
+- 🤖 AI-based risk assessment  
+- 💰 Weekly subscription model  
+- ⚡ Automated claim triggering  
+- 💸 Instant payouts  
+- 🛡️ Advanced fraud detection  
+
+---
+
+## 🔄 Workflow
+
+1. User registers as a delivery partner  
+2. System tracks location and activity  
+3. AI calculates weekly premium  
+4. External disruption occurs  
+5. System validates event + user data  
+6. Claim is automatically triggered  
+7. Instant payout is processed  
+
+---
