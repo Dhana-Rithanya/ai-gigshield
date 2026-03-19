@@ -102,3 +102,32 @@ This ensures a focused, fast, and fraud-resistant insurance model.
 - Anomaly Detection  
 
 ---
+## 🛠️ Tech Stack
+
+- **Frontend:** React  
+- **Backend:** Node.js / Python  
+- **Database:** MongoDB  
+- **AI/ML:** Scikit-learn  
+- **APIs:** Weather API, AQI API  
+- **Payments:** Razorpay (Sandbox)  
+
+---
+
+## 📈 Development Plan
+
+### Phase 1 (Current)
+- Problem definition  
+- System design  
+- README documentation  
+
+### Phase 2
+- Build MVP (frontend + backend)  
+- Integrate APIs  
+- Basic AI model  
+
+### Phase 3
+- Advanced AI models  
+- Fraud detection system  
+- Deployment  
+
+---
