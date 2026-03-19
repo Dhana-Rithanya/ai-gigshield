@@ -32,11 +32,11 @@ Current insurance solutions:
 ## 💡 Solution Overview
 AI GigShield provides a **fully automated, AI-driven insurance system** with:
 
-- 🤖 AI-based risk assessment  
-- 💰 Weekly subscription model  
-- ⚡ Automated claim triggering  
-- 💸 Instant payouts  
-- 🛡️ Advanced fraud detection  
+- AI-based risk assessment  
+- Weekly subscription model  
+- Automated claim triggering  
+- Instant payouts  
+- Advanced fraud detection  
 
 ---
 
@@ -73,12 +73,12 @@ The pricing model is designed specifically for gig workers who operate on a **we
 
 Claims are automatically triggered when:
 
-- 🌧️ Rainfall > 50 mm  
-- 🌫️ AQI > 300  
-- 🌊 Flood alerts  
-- 🚫 Government restrictions  
+- Rainfall > 50 mm  
+- AQI > 300  
+- Flood alerts  
+- Government restrictions  
 
-✅ No manual claim filing required
+No manual claim filing required
 
 ---
 
@@ -131,3 +131,35 @@ This ensures a focused, fast, and fraud-resistant insurance model.
 - Deployment  
 
 ---
+## 📈 Future Scope
+
+### Expansion Within Delivery Ecosystem
+- Integration with platforms like Swiggy and Zomato for real-time activity data  
+- Extension to e-commerce delivery partners (Amazon, Flipkart)  
+- Support for grocery & quick-commerce workers (Zepto, Blinkit)  
+
+### Financial Enhancements
+- Real-time UPI payouts for instant compensation  
+- Flexible premium plans based on daily/weekly earnings  
+
+### Advanced AI Capabilities
+- Time-series forecasting for disruption prediction  
+- Personalized risk scoring using deep learning models  
+- Improved fraud detection using graph-based AI (fraud ring detection)  
+
+### Platform Expansion
+- Expansion to ride-sharing drivers (Uber, Ola)  
+- Coverage for other gig economy workers  
+
+---
+## 🎯 Conclusion
+
+AI GigShield provides a **financial safety net for gig workers** by combining:
+- AI-driven automation  
+- Real-time disruption detection  
+- Strong fraud prevention  
+
+👉 Result: Faster payouts, reduced fraud, and scalable protection  
+
+---
+
