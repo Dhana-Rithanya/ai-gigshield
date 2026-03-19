@@ -51,3 +51,21 @@ AI GigShield provides a **fully automated, AI-driven insurance system** with:
 7. Instant payout is processed  
 
 ---
+## 💰 Weekly Pricing Model
+
+| Risk Level   | Premium |
+|-------------|--------|
+| Low Risk    | ₹30/week |
+| Medium Risk | ₹50/week |
+| High Risk   | ₹70/week |
+
+### 🧠 Pricing Justification
+The pricing model is designed specifically for gig workers who operate on a **weekly earning cycle**, ensuring affordability and flexibility.
+
+### AI Pricing Factors:
+- Weather history  
+- Area risk level  
+- User activity patterns  
+- Claim history  
+
+---
