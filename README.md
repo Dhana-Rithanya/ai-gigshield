@@ -94,3 +94,11 @@ The platform does NOT cover:
 This ensures a focused, fast, and fraud-resistant insurance model.
 
 ---
+## 🤖 AI Integration
+
+- Risk Prediction Models  
+- Dynamic Premium Calculation  
+- Behavioral Analysis  
+- Anomaly Detection  
+
+---
