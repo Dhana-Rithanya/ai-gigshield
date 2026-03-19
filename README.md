@@ -102,6 +102,54 @@ This ensures a focused, fast, and fraud-resistant insurance model.
 - Anomaly Detection  
 
 ---
+## 🚨 Adversarial Defense & Anti-Spoofing Strategy
+
+AI GigShield uses a multi-layered adversarial defense system to detect and prevent fraud such as GPS spoofing, fake claims, and coordinated attacks.
+
+### Multi-Layer Validation
+- GPS data verification  
+- Speed and route consistency checks  
+- Device ID tracking  
+- Network/IP validation  
+
+### Device Fingerprinting
+- Detect multiple accounts from same device  
+- Identify device-level fraud patterns  
+
+### Movement Pattern Analysis
+- Detect unrealistic location jumps  
+- Identify GPS spoofing behavior  
+
+### Fraud Ring Detection
+- Detect multiple users from same IP/location  
+- Identify coordinated fraud attacks  
+
+### Time-Based Analysis
+- Detect repeated claims at similar timestamps  
+- Identify automated/bot-like activity  
+
+### Claim Pattern Monitoring
+- Frequent claims detection  
+- Abnormal high-risk zone usage  
+
+### AI Risk Scoring
+
+| Score | Risk Level   | Action              |
+|------|-------------|---------------------|
+| 0–30 | Normal      | Auto-approved       |
+| 30–70| Suspicious  | Flag for review     |
+| 70+  | High Risk   | Block / Investigate |
+
+### Fairness Mechanism
+- First anomaly → Warning  
+- Repeated → Manual verification  
+- Confirmed fraud → Account blocked  
+
+### Real-Time Claim Validation
+- Cross-check location + weather + activity  
+- Approve only if all conditions match
+
+---
 ## 🛠️ Tech Stack
 
 - **Frontend:** React  
