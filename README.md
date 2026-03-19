@@ -69,3 +69,28 @@ The pricing model is designed specifically for gig workers who operate on a **we
 - Claim history  
 
 ---
+## ⚡ Parametric Triggers
+
+Claims are automatically triggered when:
+
+- 🌧️ Rainfall > 50 mm  
+- 🌫️ AQI > 300  
+- 🌊 Flood alerts  
+- 🚫 Government restrictions  
+
+✅ No manual claim filing required
+
+---
+
+## 🚫 Coverage Limitations
+
+AI GigShield strictly covers **loss of income only**.
+
+The platform does NOT cover:
+- Vehicle damage or repair  
+- Health or medical expenses  
+- Accident-related claims  
+
+This ensures a focused, fast, and fraud-resistant insurance model.
+
+---
