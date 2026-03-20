@@ -1,5 +1,5 @@
 # 🚀 AI GigShield – AI-Powered Income Protection for Gig Workers
-
+> 🚀 “GigShield AI predicts income loss before it happens and automatically protects gig workers through AI-driven parametric insurance.”
 ## 📌 Introduction
 AI GigShield is a parametric micro-insurance platform designed to protect gig workers from income loss caused by external disruptions such as heavy rainfall, air pollution, and government restrictions.
 
@@ -8,14 +8,21 @@ Unlike traditional insurance, GigShield enables **instant, automated payouts** t
 ---
 
 ## 👤 Persona
-**Target Users:** Food delivery partners (Swiggy, Zomato) in urban cities
 
-### Challenges:
-- Income depends on daily deliveries  
-- Work stops due to external disruptions  
-- No income protection system exists  
-- High financial uncertainty  
+### Ravi – Full-Time Delivery Partner
+- Age: 24
+- City: Chennai
+- Platform: Swiggy
+- Daily Earnings: ₹600
+- Dependence: 100% on daily income
 
+### Pain Points:
+- Cannot work during heavy rain or pollution
+- No savings buffer
+- No income guarantee
+- Fear of unpredictable earnings
+
+👉 Ravi needs **predictability + protection**, not just insurance.
 ---
 ## ❗ Problem Statement
 Gig workers lose **20–30% of their income** due to uncontrollable conditions like:
@@ -29,6 +36,16 @@ Current insurance solutions:
 - Are vulnerable to fraud  
 
 ---
+## ⏳ Why Now?
+
+- Rapid growth of gig economy in India
+- Increasing climate disruptions (rain, heat, pollution)
+- No existing income-protection insurance
+- Rise of AI enables real-time decision systems
+
+GigShield AI solves a **timely and rapidly growing problem**.
+
+---
 ## 💡 Solution Overview
 AI GigShield provides a **fully automated, AI-driven insurance system** with:
 
@@ -39,11 +56,49 @@ AI GigShield provides a **fully automated, AI-driven insurance system** with:
 - Advanced fraud detection  
 
 ---
+## 🏗 System Architecture
+┌──────────────────────────────┐
+│   External APIs              │
+│  Weather API • AQI APT • Maps API│
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│   Data Processing Layer      │
+│  Cleaning • Feature Engg     │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│   AI Engine                  │
+│  Risk • Pricing • Fraud      │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Insurance Decision Engine    │
+│ Threshold • Validation       │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Backend (Node/FastAPI)       │
+│ APIs • Business Logic        │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Database (MongoDB)           │
+│ Users • Policies • Claims    │
+└──────────────┬───────────────┘
+               ↓
+┌──────────────────────────────┐
+│ Frontend (React App)         │
+│ Dashboard • Alerts           │
+└──────────────────────────────┘
+GigShield AI follows a modular, scalable architecture combining real-time data ingestion, AI prediction, and automated insurance processing.
+
+---
 
 ## 🔄 Workflow
 
 1. User registers as a delivery partner  
-2. System tracks location and activity  
+2.System securely tracks location and activity (with user consent)  
 3. AI calculates weekly premium  
 4. External disruption occurs  
 5. System validates event + user data  
@@ -59,15 +114,40 @@ AI GigShield provides a **fully automated, AI-driven insurance system** with:
 | Medium Risk | ₹50/week |
 | High Risk   | ₹70/week |
 
-### 🧠 Pricing Justification
-The pricing model is designed specifically for gig workers who operate on a **weekly earning cycle**, ensuring affordability and flexibility.
+## 🧠 How the AI Works
 
-### AI Pricing Factors:
-- Weather history  
-- Area risk level  
-- User activity patterns  
-- Claim history  
+### Step 1: Data Collection
+- Weather data (rainfall, temperature)
+- AQI levels
+- User location & activity
+- Historical delivery trends
 
+---
+
+### Step 2: Risk Score Calculation
+
+Risk Score = (Weather Impact × 0.4) + (AQI Impact × 0.3) + (Demand Drop Probability × 0.3)
+
+---
+
+### Step 3: Income Loss Estimation
+- Predicts % drop in deliveries
+- Maps to expected income loss
+
+---
+
+### Step 4: Decision Engine
+IF:
+- Risk Score > Threshold
+- User is active & insured
+
+→ Auto payout triggered
+
+---
+
+### Step 5: Model Learning
+- Updates using past claims
+- Improves prediction accuracy
 ---
 ## ⚡ Parametric Triggers
 
@@ -94,14 +174,7 @@ The platform does NOT cover:
 This ensures a focused, fast, and fraud-resistant insurance model.
 
 ---
-## 🤖 AI Integration
 
-- Risk Prediction Models  
-- Dynamic Premium Calculation  
-- Behavioral Analysis  
-- Anomaly Detection  
-
----
 ## 🚨 Adversarial Defense & Anti-Spoofing Strategy
 
 AI GigShield uses a multi-layered adversarial defense system to detect and prevent fraud such as GPS spoofing, fake claims, and coordinated attacks.
@@ -200,6 +273,17 @@ AI GigShield uses a multi-layered adversarial defense system to detect and preve
 - Coverage for other gig economy workers  
 
 ---
+## 🔥 What Makes Us Different?
+
+- Predictive (not reactive) insurance
+- Zero manual claims
+- Real-time AI-based payouts
+- Strong fraud detection system
+- Smart earning recommendations
+
+👉 Not just insurance — an **AI-powered income protection system**
+
+---
 ## 🎯 Conclusion
 
 AI GigShield provides a **financial safety net for gig workers** by combining:
@@ -208,6 +292,9 @@ AI GigShield provides a **financial safety net for gig workers** by combining:
 - Strong fraud prevention  
 
 👉 Result: Faster payouts, reduced fraud, and scalable protection  
+
+---
+🚀 Built for DEVTrails 2026 – Unicorn Chase Hackathon
 
 ---
 
