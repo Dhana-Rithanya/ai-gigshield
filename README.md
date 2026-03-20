@@ -23,6 +23,7 @@ Unlike traditional insurance, GigShield enables **instant, automated payouts** t
 - Fear of unpredictable earnings
 
 👉 Ravi needs **predictability + protection**, not just insurance.
+
 ---
 ## ❗ Problem Statement
 Gig workers lose **20–30% of their income** due to uncontrollable conditions like:
@@ -57,48 +58,16 @@ AI GigShield provides a **fully automated, AI-driven insurance system** with:
 
 ---
 ## 🏗 System Architecture
-┌──────────────────────────────┐
-│   External APIs              │
-│  Weather API • AQI APT • Maps API│
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│   Data Processing Layer      │
-│  Cleaning • Feature Engg     │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│   AI Engine                  │
-│  Risk • Pricing • Fraud      │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ Insurance Decision Engine    │
-│ Threshold • Validation       │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ Backend (Node/FastAPI)       │
-│ APIs • Business Logic        │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ Database (MongoDB)           │
-│ Users • Policies • Claims    │
-└──────────────┬───────────────┘
-               ↓
-┌──────────────────────────────┐
-│ Frontend (React App)         │
-│ Dashboard • Alerts           │
-└──────────────────────────────┘
+
 GigShield AI follows a modular, scalable architecture combining real-time data ingestion, AI prediction, and automated insurance processing.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8e04e9a7-8f68-49a8-b8d3-aa8b6a86a20a" />
 
 ---
 
 ## 🔄 Workflow
 
 1. User registers as a delivery partner  
-2.System securely tracks location and activity (with user consent)  
+2. System securely tracks location and activity (with user consent)  
 3. AI calculates weekly premium  
 4. External disruption occurs  
 5. System validates event + user data  
