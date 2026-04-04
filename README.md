@@ -1,9 +1,9 @@
-# 🚀 AI GigShield – AI-Powered Income Protection for Gig Workers
-> 🚀 “GigShield AI predicts income loss before it happens and automatically protects gig workers through AI-driven parametric insurance.”
+# 🚀 Incurix AI – Smart Income Protection for Delivery Riders
+> 🚀 “Incurix AI predicts income loss before it happens and automatically protects gig workers through AI-driven parametric insurance.”
 ## 📌 Introduction
-AI GigShield is a parametric micro-insurance platform designed to protect gig workers from income loss caused by external disruptions such as heavy rainfall, air pollution, and government restrictions.
+Incurix AI is a parametric micro-insurance platform designed to protect gig workers from income loss caused by external disruptions such as heavy rainfall, air pollution, and government restrictions.
 
-Unlike traditional insurance, GigShield enables **instant, automated payouts** triggered by real-world data—ensuring **zero paperwork, zero delay, and minimal fraud**.
+Unlike traditional insurance, Incurix  enables **instant, automated payouts** triggered by real-world data—ensuring **zero paperwork, zero delay, and minimal fraud**.
 
 ---
 
@@ -59,7 +59,7 @@ AI GigShield provides a **fully automated, AI-driven insurance system** with:
 ---
 ## 🏗 System Architecture
 
-GigShield AI follows a modular, scalable architecture combining real-time data ingestion, AI prediction, and automated insurance processing.
+Incurix AI follows a modular, scalable architecture combining real-time data ingestion, AI prediction, and automated insurance processing.
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8e04e9a7-8f68-49a8-b8d3-aa8b6a86a20a" />
 
 ---
@@ -195,7 +195,7 @@ AI GigShield uses a multi-layered adversarial defense system to detect and preve
 ## 🛠️ Tech Stack
 
 - **Frontend:** React  
-- **Backend:** Node.js / Python  
+- **Backend:** Node.js  
 - **Database:** MongoDB  
 - **AI/ML:** Scikit-learn  
 - **APIs:** Weather API, AQI API  
@@ -203,24 +203,6 @@ AI GigShield uses a multi-layered adversarial defense system to detect and preve
 
 ---
 
-## 📈 Development Plan
-
-### Phase 1 (Current)
-- Problem definition  
-- System design  
-- README documentation  
-
-### Phase 2
-- Build MVP (frontend + backend)  
-- Integrate APIs  
-- Basic AI model  
-
-### Phase 3
-- Advanced AI models  
-- Fraud detection system  
-- Deployment  
-
----
 ## 📈 Future Scope
 
 ### Expansion Within Delivery Ecosystem
