@@ -30,7 +30,7 @@ export default function Logs() {
       </div>
 
       <div className="logs-filters">
-        {["All", "PolicyCenter", "ClaimCenter"].map((f) => (
+        {["All", "PolicyCenter", "ClaimCenter", "WeatherMonitor", "AutomationEngine", "PaymentGateway", "FraudDetector", "KYC"].map((f) => (
           <button
             key={f}
             className={`filter-btn${filter === f ? " active" : ""}`}
